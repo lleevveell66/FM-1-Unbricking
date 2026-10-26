@@ -18,16 +18,31 @@ Files:
 
 When you download either, rename it to FM-1.fwsc to make things easier for other tools.
 
-## Soft vs. Hard Bricked:
+## Tools for Windows:
+I am a 35+ year unix greybeard.  But, I still use the Windows platform for all multimedia/art.  So, I am doing this in Windows 10 Pro and will let you know how I have my environment set-up for this.
 
+To match my environment, if you are new to all of this, download and install:
+* [Git for Windows](https://gitforwindows.org/)
+* [MSYS2](https://www.msys2.org/)
+* Bring up a MING64 terminal and install python and wget:
+  ```
+  pacman -S mingw-w64-x86_64-python wget
+  ```
+* Assuming you installed MSYS2 to the default C:\msys64\ directory, set up your shell environment to prefer the MINGW64 binaries over the rest when you enter your terminal, with:
+  ```
+  echo 'export PATH="/c/msys64/mingw64/bin:/c/msys64/usr/bin:$PATH"' >> ~/.bashrc
+  source ~/.bashrc
+  ```
+
+You should now be able to easily "git clone" repos, wget firmware files, and run python scripts from your new unix-y terminal.    Enjoy!
+
+## Soft vs. Hard Bricked:
 More to come...
 
 ### Unbricking a soft-bricked FM-1:
-
 More to come...
 
 ### Unbricking a hard-bricked FM-1:
-
 More to come...
 
 ## Like My Work or Music?
