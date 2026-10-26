@@ -8,7 +8,7 @@ This will hopefully become an easier guide to unbricking both soft-bricked and h
 I have staged V15 and V16 versions of the FM-1 stock firmware on my website.  This comes with a very stern warning:
 
 > [!CAUTION]
-> **Warning:** NEVER TRUST FIRMWARE PROVIDED BY ANYONE BUT THE VENDOR!
+> **NEVER TRUST FIRMWARE PROVIDED BY ANYONE BUT THE VENDOR!**
 
 But, for those who are going to ignore that, because MVave has not provided previous version links and this is your only choice... carry on.
 
@@ -20,9 +20,15 @@ When you download either, rename it to FM-1.fwsc to make things easier for other
 
 ## Soft vs. Hard Bricked:
 
+More to come...
+
 ### Unbricking a soft-bricked FM-1:
 
+More to come...
+
 ### Unbricking a hard-bricked FM-1:
+
+More to come...
 
 ## Like My Work or Music?
 You could always [Buy Me A Coffee](https://buymeacoffee.com/sixthlevel)   (:
