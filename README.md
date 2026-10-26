@@ -19,16 +19,16 @@ Files:
 When you download either, rename it to FM-1.fwsc to make things easier for other tools.
 
 ## Tools for Windows:
-I am a 35+ year unix greybeard.  But, I still use the Windows platform for all multimedia/art.  So, I am doing this in Windows 10 Pro and will let you know how I have my environment set-up for this.
+I am a 35+ year unix greybeard.  But, I still use the Windows platform for all multimedia/art and a quarter of my development.  So, I am doing this in Windows 10 Pro and will let you know how I have my environment set-up for this.
 
 To match my environment, if you are new to all of this, download and install:
 * [Git for Windows](https://gitforwindows.org/)
 * [MSYS2](https://www.msys2.org/)
-* Bring up a MING64 terminal and install python and wget:
+* Bring up a MING64 terminal and install python, wget, and git:
   ```
   pacman -S --noconfirm mingw-w64-x86_64-python wget git
   ```
-  If that command does not work, you may have brought up the wrong terminal.  Simply hit WIN-r and paste "C:\msys64\mingw64" and hit enter to run the correct one.  You want to see "MINGW64" in your prompt, instead of "UCRT64".
+  If that command does not work, you may have brought up the wrong terminal.  Simply hit WIN-r and paste "C:\msys64\mingw64" and hit enter to run the correct one.  You want to see "MINGW64" in your prompt, instead of "UCRT64".  Just my personal preference.
 * Assuming you installed MSYS2 to the default C:\msys64\ directory, set up your shell environment to prefer the MINGW64 binaries over the rest when you enter your terminal, with:
   ```
   echo 'export PATH="/c/msys64/mingw64/bin:/c/msys64/usr/bin:$PATH"' >> ~/.bashrc
