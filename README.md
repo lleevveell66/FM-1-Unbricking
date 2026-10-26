@@ -37,6 +37,16 @@ To match my environment, if you are new to all of this, download and install:
 
 You should now be able to easily "git clone" repos, wget firmware files, and run python scripts from your new unix-y terminal.    Enjoy!
 
+If you find yourself *really* enjoying this sort of development environment and your new "linux" style shell in Windows, you can use pacman (the package manager) to search for packages you might like to install, then install them.  You might want to install gcc to compile C code.  Maybe you would like to install the lynx textual browser and hit an interesting gopher site?  Fun times.  Fun times.
+```
+$ pacman -Ss lynx
+msys/lynx 2.9.3-1 [installed]
+    A text browser for the World Wide Web
+$ pacman -S --noconfirm lynx
+$ lynx gopher://gopher.leper.org:7777/
+```
+Anyway...
+
 ## Soft vs. Hard Bricked:
 More to come...
 
