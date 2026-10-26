@@ -28,6 +28,7 @@ To match my environment, if you are new to all of this, download and install:
   ```
   pacman -S mingw-w64-x86_64-python wget
   ```
+  If that command does not work, you may have brought up the wrong terminal.  Simply hit WIN-r and paste "C:\msys64\mingw64" and hit enter to run the correct one.
 * Assuming you installed MSYS2 to the default C:\msys64\ directory, set up your shell environment to prefer the MINGW64 binaries over the rest when you enter your terminal, with:
   ```
   echo 'export PATH="/c/msys64/mingw64/bin:/c/msys64/usr/bin:$PATH"' >> ~/.bashrc
