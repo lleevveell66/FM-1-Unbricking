@@ -8,8 +8,8 @@ This will hopefully become an easier guide to unbricking both soft-bricked and h
 I have staged V15 and V16 versions of the FM-1 stock firmware on my website.  This comes with a very stern warning - NEVER TRUST FIRMWARE PROVIDED BY ANYONE BUT THE VENDOR!  But, for those who are going to ignore that, because MVave has not provided previous version links and this is your only choice... carry on.
 
 Files:
-[V15](https://www.level6.art/downloads/free/FM-1/FM-1_V15.fwsc)
-[V16](https://www.level6.art/downloads/free/FM-1/FM-1_V16.fwsc)
+* [V15](https://www.level6.art/downloads/free/FM-1/FM-1_V15.fwsc)
+* [V16](https://www.level6.art/downloads/free/FM-1/FM-1_V16.fwsc)
 
 When you download either, rename it to FM-1.fwsc to make things easier for other tools.
 
